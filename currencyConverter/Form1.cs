@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace currencyConverter
 {
-    public partial class Form1 : Form
+    public partial class currencyConvert : Form
     {
-        public Form1()
+        public currencyConvert()
         {
             InitializeComponent();
+        }
+
+        private void btnConverter_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://www.google.com");
         }
     }
 }
